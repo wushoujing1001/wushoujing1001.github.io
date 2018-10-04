@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="空投,傻币," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="傻币背景不久前李笑来录音门使我产生了一个奇妙的念头，傻逼的共识真的有价值吗？于是就有了这个傻币(SB)，目的是进行一场社会实验，来看看傻逼的共识是否真能产生价值？若能的话，价值几何？  虽然李笑来录音中的傻逼有些刺耳，但是听完仔细回味一下又觉得好像真有点道理。记得我之前有篇文章(共识与流通——通证经济的基石)讨论过共识对通证价值的重要性。 共识创造价值，是价值的基石，从某种意义上来说共识就是价值。">
+<meta name="keywords" content="空投,傻币">
+<meta property="og:type" content="article">
+<meta property="og:title" content="空投来了!社会实验——傻币">
+<meta property="og:url" content="http://yoursite.com/2018/10/04/空投来了！社会实验——傻币/index.html">
+<meta property="og:site_name" content="悟守敬">
+<meta property="og:description" content="傻币背景不久前李笑来录音门使我产生了一个奇妙的念头，傻逼的共识真的有价值吗？于是就有了这个傻币(SB)，目的是进行一场社会实验，来看看傻逼的共识是否真能产生价值？若能的话，价值几何？  虽然李笑来录音中的傻逼有些刺耳，但是听完仔细回味一下又觉得好像真有点道理。记得我之前有篇文章(共识与流通——通证经济的基石)讨论过共识对通证价值的重要性。 共识创造价值，是价值的基石，从某种意义上来说共识就是价值。">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://hbimg.b0.upaiyun.com/2e4d6fac7daf87448d360824c72473f4f999e183168b8-u6nVXN_fw658">
+<meta property="og:image" content="https://hbimg.b0.upaiyun.com/c189a123b62dfebc80c1bdaaa943f6759801a63a11735-jfieR4_fw658">
+<meta property="og:image" content="https://hbimg.b0.upaiyun.com/71f16b4aee5456c5d8f94022de12f410f7f8aa4ab2e3-u6qPmj_fw658">
+<meta property="og:image" content="https://hbimg.b0.upaiyun.com/1df299c42ad46edc154feefc3a28b634c2703dc31f506-GEcw5f_fw658">
+<meta property="og:updated_time" content="2018-10-04T12:47:16.588Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="空投来了!社会实验——傻币">
+<meta name="twitter:description" content="傻币背景不久前李笑来录音门使我产生了一个奇妙的念头，傻逼的共识真的有价值吗？于是就有了这个傻币(SB)，目的是进行一场社会实验，来看看傻逼的共识是否真能产生价值？若能的话，价值几何？  虽然李笑来录音中的傻逼有些刺耳，但是听完仔细回味一下又觉得好像真有点道理。记得我之前有篇文章(共识与流通——通证经济的基石)讨论过共识对通证价值的重要性。 共识创造价值，是价值的基石，从某种意义上来说共识就是价值。">
+<meta name="twitter:image" content="https://hbimg.b0.upaiyun.com/2e4d6fac7daf87448d360824c72473f4f999e183168b8-u6nVXN_fw658">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/10/04/空投来了！社会实验——傻币/"/>
+
+
+
+
+
+  <title>空投来了!社会实验——傻币 | 悟守敬</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">悟守敬</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">悟道、守道、敬道</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+            
+            日程表
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/04/空投来了！社会实验——傻币/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="守敬">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="悟守敬">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">空投来了!社会实验——傻币</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-04T20:39:02+08:00">
+                2018-10-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/区块链技术/" itemprop="url" rel="index">
+                    <span itemprop="name">区块链技术</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/区块链技术/空投合约/" itemprop="url" rel="index">
+                    <span itemprop="name">空投合约</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h2 id="傻币背景"><a href="#傻币背景" class="headerlink" title="傻币背景"></a>傻币背景</h2><p>不久前李笑来录音门使我产生了一个奇妙的念头，傻逼的共识真的有价值吗？于是就有了这个傻币(SB)，目的是进行一场社会实验，<strong>来看看傻逼的共识是否真能产生价值？若能的话，价值几何？</strong></p>
+<p><img src="https://hbimg.b0.upaiyun.com/2e4d6fac7daf87448d360824c72473f4f999e183168b8-u6nVXN_fw658" alt="傻币详情"></p>
+<p>虽然李笑来录音中的傻逼有些刺耳，但是听完仔细回味一下又觉得好像真有点道理。记得我之前有篇文章(<a href="https://bihu.com/article/396773" target="_blank" rel="noopener">共识与流通——通证经济的基石</a>)讨论过共识对通证价值的重要性。</p>
+<p><strong>共识创造价值，是价值的基石，从某种意义上来说共识就是价值</strong>。而通证系统只有在有共识的前提下，才能正常运转与流通。所有的通证系统，都是试图以其所发行的通证作为一种经济激励的工具，促进生态圈内各个角色的协作。你的贡献越大，你得到的币越多。大家协作得越好，币价越高。通证经济系统的设计，就是要用经济激励的手段，让你整个生态圈的每一个人、每一个角色尽可能行善事，不作恶。</p>
+<h2 id="傻币能做什么"><a href="#傻币能做什么" class="headerlink" title="傻币能做什么"></a>傻币能做什么</h2><p><strong>傻币什么也做不了</strong>，因为傻币没有任何现实世界的价值作为锚定。既然这样，你肯定会问那傻币的意义的在哪里？傻币没有意义，若真要为它想出一个意义的话那就是做个社会实验，看看自发形成的傻币持有者能否因共识而使傻币获得价值。</p>
+<p>就是这么坦诚，没有空气项目的套路。</p>
+<p>虽然自古真情留不住，唯有套路得人心，但是我还是希望能通过这个实验认识更多有趣的灵魂，当然，好看皮囊更好。</p>
+<h2 id="傻币简介"><a href="#傻币简介" class="headerlink" title="傻币简介"></a>傻币简介</h2><p><strong>token名称</strong>:傻币<br><strong>token简称</strong>: SB<br><strong>发行标准:</strong> ERC-20<br><strong>合约地址:</strong> 0x6958C8d805506c79dDe94bfB3FB08Bf860Bf1FDf<br><strong>总量:</strong> 100000000 (一个亿)，永不增发<br><strong>分配方案:</strong> 70%用于免费空投给愿意参与实验的人，30%用于后续活动运营奖励(若果有的话)</p>
+<p>*为确保合约正常执行，建议gas至少在100000以上，或者简易版本0.001 eth 以上矿工费。<br><img src="https://hbimg.b0.upaiyun.com/c189a123b62dfebc80c1bdaaa943f6759801a63a11735-jfieR4_fw658" alt="分配方案"></p>
+<h2 id="空投活动"><a href="#空投活动" class="headerlink" title="空投活动"></a>空投活动</h2><p>傻币既然是为了验证傻逼共识的价值而诞生的，从这个立场出发傻币就是一个社会实验，一场由一群有趣的人共同参与的社会实验，傻币的70%将采取合约自动空投的方式发放到实验者手中。</p>
+<p><strong>空投参与方式:</strong>向傻币的合约地址发送 0 eth 将会出发空投合约执行，向该地址发送 7000 枚傻币 (SB)。</p>
+<p><img src="https://hbimg.b0.upaiyun.com/71f16b4aee5456c5d8f94022de12f410f7f8aa4ab2e3-u6qPmj_fw658" alt="合约地址"></p>
+<p><strong>空投覆盖范围:</strong> 1 万人，每人 7000 枚傻币。<br><strong>空投时间:</strong> 1/10/2018-1/10/2019，为期一年，但空投账户余额为零时活动自动停止。</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>限于精力，希望对这个实验感兴趣且有社群运营、活动策划经验的朋友加我好友（VX：<strong>shoujing1001</strong>）一起进行这项实验。</p>
+<p>持有傻币的朋友请加活动运营微信 <strong>Mrshoujing</strong> ，人数达到100时开启<strong>傻币共识社群</strong>。</p>
+<p>回望过去的一年，觉得刚进币圈的自己很傻逼，什么也不会，什么也不懂。匆匆一年过去了，勉强算有些长进，生活就是不断发现自己是傻逼的过程。</p>
+<h2 id="声明"><a href="#声明" class="headerlink" title="声明"></a>声明</h2><p>傻币仅仅是一个尚未开始的社会实验，没有任何现实价值，请各位朋友理性对待。</p>
+<p><img src="https://hbimg.b0.upaiyun.com/1df299c42ad46edc154feefc3a28b634c2703dc31f506-GEcw5f_fw658" alt="关注"></p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/空投/" rel="tag"># 空投</a>
+          
+            <a href="/tags/傻币/" rel="tag"># 傻币</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/10/04/hello-world/" rel="next" title="Hello World">
+                <i class="fa fa-chevron-left"></i> Hello World
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">守敬</p>
+              <p class="site-description motion-element" itemprop="description">比特币区块链项目分析</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#傻币背景"><span class="nav-number">1.</span> <span class="nav-text">傻币背景</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#傻币能做什么"><span class="nav-number">2.</span> <span class="nav-text">傻币能做什么</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#傻币简介"><span class="nav-number">3.</span> <span class="nav-text">傻币简介</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#空投活动"><span class="nav-number">4.</span> <span class="nav-text">空投活动</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#其他"><span class="nav-number">5.</span> <span class="nav-text">其他</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#声明"><span class="nav-number">6.</span> <span class="nav-text">声明</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">守敬</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
