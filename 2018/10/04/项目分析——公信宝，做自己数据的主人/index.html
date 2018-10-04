@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="zh-Hans">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="项目评测,公信宝," />
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="[TOC]  项目立项得分:9分比重:30% 项目背景数据从未像今天这样受到人类重视过，人类社会进入互联网时代后，数据传输产生了巨大的变革，数据也开始逐渐变得重要起来。随着科技的发展，大数据这一概念被广泛提出，基于大数据的研究不断取得新进展，而个人数据就是在这样的背景下开始变得举足轻重。 大数据研究需要大量数据来源，尤其在社会科学方面的研究，一方面，如何安全、合法的收集、储存个人数据是一个棘手的难">
+<meta name="keywords" content="项目评测,公信宝">
+<meta property="og:type" content="article">
+<meta property="og:title" content="项目分析——公信宝，做自己数据的主人">
+<meta property="og:url" content="http://yoursite.com/2018/10/04/项目分析——公信宝，做自己数据的主人/index.html">
+<meta property="og:site_name" content="悟守敬">
+<meta property="og:description" content="[TOC]  项目立项得分:9分比重:30% 项目背景数据从未像今天这样受到人类重视过，人类社会进入互联网时代后，数据传输产生了巨大的变革，数据也开始逐渐变得重要起来。随着科技的发展，大数据这一概念被广泛提出，基于大数据的研究不断取得新进展，而个人数据就是在这样的背景下开始变得举足轻重。 大数据研究需要大量数据来源，尤其在社会科学方面的研究，一方面，如何安全、合法的收集、储存个人数据是一个棘手的难">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://hbimg.b0.upaiyun.com/17f8ae0626957c3d0f0ed878dda4bc2b79a25dfa266be-SB2Y1b_fw658">
+<meta property="og:image" content="https://hbimg.b0.upaiyun.com/280d460686e4585d8c02e1447f3ea7c6b43c535110cd3-G0GG9D_fw658">
+<meta property="og:image" content="https://hbimg.b0.upaiyun.com/a3ed9fb285b3f18a7a739642e080fbbed75a1cd317c14-6Kzhk3_fw658">
+<meta property="og:image" content="https://hbimg.b0.upaiyun.com/1d2160116ee71801401d5e83354b942fee879a292d17c-uJ3ryB_fw658">
+<meta property="og:image" content="https://hbimg.b0.upaiyun.com/034316e87c44844515a58d9d7f8a08e1d73432332aa24-DMe8a1_fw658">
+<meta property="og:updated_time" content="2018-10-04T13:51:41.223Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="项目分析——公信宝，做自己数据的主人">
+<meta name="twitter:description" content="[TOC]  项目立项得分:9分比重:30% 项目背景数据从未像今天这样受到人类重视过，人类社会进入互联网时代后，数据传输产生了巨大的变革，数据也开始逐渐变得重要起来。随着科技的发展，大数据这一概念被广泛提出，基于大数据的研究不断取得新进展，而个人数据就是在这样的背景下开始变得举足轻重。 大数据研究需要大量数据来源，尤其在社会科学方面的研究，一方面，如何安全、合法的收集、储存个人数据是一个棘手的难">
+<meta name="twitter:image" content="https://hbimg.b0.upaiyun.com/17f8ae0626957c3d0f0ed878dda4bc2b79a25dfa266be-SB2Y1b_fw658">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2018/10/04/项目分析——公信宝，做自己数据的主人/"/>
+
+
+
+
+
+  <title>项目分析——公信宝，做自己数据的主人 | 悟守敬</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">悟守敬</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">悟道、守道、敬道</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br />
+            
+            关于
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-categories">
+          <a href="/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
+            
+            分类
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-schedule">
+          <a href="/schedule/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-calendar"></i> <br />
+            
+            日程表
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/04/项目分析——公信宝，做自己数据的主人/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="守敬">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="悟守敬">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">项目分析——公信宝，做自己数据的主人</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2018-10-04T21:48:48+08:00">
+                2018-10-04
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/项目分析/" itemprop="url" rel="index">
+                    <span itemprop="name">项目分析</span>
+                  </a>
+                </span>
+
+                
+                
+                  ， 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/项目分析/国产三宝/" itemprop="url" rel="index">
+                    <span itemprop="name">国产三宝</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>[TOC]</p>
+<p><img src="https://hbimg.b0.upaiyun.com/17f8ae0626957c3d0f0ed878dda4bc2b79a25dfa266be-SB2Y1b_fw658" alt="综述"></p>
+<h2 id="项目立项"><a href="#项目立项" class="headerlink" title="项目立项"></a>项目立项</h2><p>得分:<strong>9分</strong><br>比重:<strong>30%</strong></p>
+<h3 id="项目背景"><a href="#项目背景" class="headerlink" title="项目背景"></a>项目背景</h3><p>数据从未像今天这样受到人类重视过，人类社会进入互联网时代后，数据传输产生了巨大的变革，数据也开始逐渐变得重要起来。随着科技的发展，大数据这一概念被广泛提出，基于大数据的研究不断取得新进展，而个人数据就是在这样的背景下开始变得举足轻重。</p>
+<p>大数据研究需要大量数据来源，尤其在社会科学方面的研究，一方面，<strong>如何安全、合法的收集、储存个人数据</strong>是一个棘手的难题，另一方面则面对着信息孤岛现象导致的效率低下。而对个人而言，个人数据的安全也难以保证。且在大数据时代，个人数据往往会在不经意间被收集利用，而个人不仅无法掌控自己的个人数据，还无法获得回报。</p>
+<h3 id="立足痛点"><a href="#立足痛点" class="headerlink" title="立足痛点"></a>立足痛点</h3><p>如前所述，由于大数据研究需要大量的数据来源，而当前面临的问题除了个人数据的安全收集，还有各个行业和机构之间形成的数据孤岛。</p>
+<p>毋庸置疑的是，如果有一个安全可靠的媒介，能够使个人安全掌控个人数据，而各行业、机构能安全的共享彼此的数据的话，那么大数据研究和应用将会提升一个层次。公信宝就是这样一个媒介，它基于区块链技术构建了一个安全的数据交换网络，个体用户可以通过公信宝安全掌控自己的个人数据，并决定是否授权其他机构使用自己的数据；机构用户和开发者则可以在公信宝上共享和获得数据，降低数据获取成本和流通成本。</p>
+<p><img src="https://hbimg.b0.upaiyun.com/280d460686e4585d8c02e1447f3ea7c6b43c535110cd3-G0GG9D_fw658" alt="公信宝数据交换"></p>
+<h3 id="发展前景"><a href="#发展前景" class="headerlink" title="发展前景"></a>发展前景</h3><p>近期爆出的几件关于个人数据的事件引起社会广泛的关注，其中社交网站Facebook和华住的用户信息泄露事件造成的巨大影响。在这样的背景下，大量个人数据如何安全、合法的被采集、储存和利用成了广泛讨论的话题。</p>
+<p>公信宝借助区块链这一“信任的机器“来实现这一目标是超前的，区块链去中心化的特点使得公信宝可以在不储存用户数据的情况下，实现数据的高效利用。且目前区块链技术正处于蓬勃发展时期，区块链+大数据有着很大的想象空间，因此公信宝的发展前景是十分不错的。</p>
+<h3 id="实现难度"><a href="#实现难度" class="headerlink" title="实现难度"></a>实现难度</h3><p>公信宝想基于区块链建立一个可信任的全领域数据交换价值网络，面临以下几个挑战:</p>
+<p>1.底层技术风险。这是当前大多数区块链项目面临的主要问题，由于在技术发展前期，所以如何突破技术限制是公信宝项目成败的最大风险。</p>
+<p>2.推广风险。由于区块链概念尚未在社会大众中普及开来，如何使社会大众接受公信宝这一区块链项目，并在公信宝网络中交换数据是一个不小的难题。</p>
+<p>3.通证流通风险，项目通证分配过于集中，不利于通证自由流通。</p>
+<p>4.政策风险。由于政策监管而面临的项目存续风险。</p>
+<h2 id="通证模型"><a href="#通证模型" class="headerlink" title="通证模型"></a>通证模型</h2><p>得分:<strong>7分</strong><br>比重:<strong>20%</strong></p>
+<h3 id="通证总量"><a href="#通证总量" class="headerlink" title="通证总量"></a>通证总量</h3><p>公信宝基于DPoS共识机制的石墨烯底层架构了项目底层公链(GXChain)，GXS是GXChain上发行的数字通证。</p>
+<p><strong>GXS总量： 100,000,000 个</strong></p>
+<p>另外，公信宝还针对认证商户（企业、机构等）发行了<strong>和人民币1:1锚定GXC</strong>，用于认证商户买卖数据结账的数字资产。</p>
+<h3 id="分配比例"><a href="#分配比例" class="headerlink" title="分配比例"></a>分配比例</h3><p>1.公募计划总额：39,000,000 个，占39%，实际公募发行2451万个，剩余的GXS其中500万个作为布洛克城挖矿奖励投放至布洛克城矿池，剩余949万个作为开发者支持基金，将扶持基于GXChain开发的应用。</p>
+<p>2.私募总额：10,000,000 个，占10%，用于发放给最早期的私募投资者。</p>
+<p>3.公信宝基⾦会持有：51,000,000 个，占51%(锁仓以年为单位释放，第⼀年最多释放数额占GXS总额的6%)。</p>
+<h3 id="流通逻辑"><a href="#流通逻辑" class="headerlink" title="流通逻辑"></a>流通逻辑</h3><p>在公信宝网络中，所有数据的交互都需要使用GXS做为交互介质，这为GXS的流通提供了丰富的、真实的应用场景。</p>
+<p>对个人用户(C)而言，可以通过布洛克城挖宝或完成任务、为社区作出贡献及交易数据获得GSX，而使用接入公信宝网络的第三方服务则可以消耗GSX；对开发者而言，为社区做出开发贡献（包括BUG反馈）、通过开发应用赚取服务费和销售应用产生的数据获得GXS，消耗场景则为使用公信宝BAAS服务及注册成为开发者。</p>
+<p>总体而言，GSX的流通逻辑是较为完整的，有真实的需求和应用场景。</p>
+<h2 id="履约能力"><a href="#履约能力" class="headerlink" title="履约能力"></a>履约能力</h2><p>得分:<strong>8分</strong><br>比重:<strong>20%</strong></p>
+<h3 id="路线图进度"><a href="#路线图进度" class="headerlink" title="路线图进度"></a>路线图进度</h3><p>公信宝没有明确公布的项目路线图和规划，目前已经完成底层公链开发(GXchain)、布洛克城dapp开发(区块链虚拟城市，个人用户贡献数据入口)以及数据交易平台构建和开发者接入准备。项目整体进展不错，应用生态建设已初具规模。</p>
+<h3 id="代码库更新"><a href="#代码库更新" class="headerlink" title="代码库更新"></a>代码库更新</h3><p>公信宝在GitHub上代码库一直保持更新，总体而言状况较为良好。</p>
+<p><img src="https://hbimg.b0.upaiyun.com/a3ed9fb285b3f18a7a739642e080fbbed75a1cd317c14-6Kzhk3_fw658" alt="github"></p>
+<p><img src="https://hbimg.b0.upaiyun.com/1d2160116ee71801401d5e83354b942fee879a292d17c-uJ3ryB_fw658" alt="mytoken"></p>
+<h3 id="募资使用"><a href="#募资使用" class="headerlink" title="募资使用"></a>募资使用</h3><p>未公布募资使用情况。</p>
+<h2 id="核心团队"><a href="#核心团队" class="headerlink" title="核心团队"></a>核心团队</h2><p>得分:<strong>7分</strong><br>比重:<strong>20%</strong></p>
+<h3 id="团队成员"><a href="#团队成员" class="headerlink" title="团队成员"></a>团队成员</h3><p><strong>黄敏强 创始人 CEO</strong><br>⾹港财经学院 MBA 、⼭东科技⼤学 计算机学⼠<br>前汉鼎宇佑(股票代码300300) CTO</p>
+<p><strong>涂国君 联合创始人 VP</strong><br>湖南⼤学 计算机学⼠<br>先后在3家上市IT公司担任⾼管职务<br>创建过多家科技公司，拥有超过21年互联⽹、⽀付、信息安全、⼤健康等⾏业的从业经验，区块链深度研究者。</p>
+<p><strong>王成 CTO</strong><br>国内顶尖数据技术专家<br>前51信用卡架构师，曾任职国内著名互联网公司如阜博通、51信用卡、大树网络并快速成为核心人物、主导角色。<br>在金融垂直领域衍生数据采集，清洗和挖掘有相当丰富经验。</p>
+<p><strong>徐若淞 CMO</strong><br>复旦大学物理学学士<br>曾供华为技术、中国移动及同盾科技， 在数据领域、信贷风控领域有丰富的行业经验。</p>
+<p><strong>许潇鹏 运营总监</strong><br>6年市场营销经验，历任浙江广电集团、思美传媒、网易市场负责人，负责过大量产品和各种行业的品牌传播和市场活动，对互联网营销、品牌策略经验丰富。</p>
+<p><strong>吴立宇 产品经理</strong><br>原网易高级产品经理，曾先后在同花顺、微贷网等公司负责产品设计工作。深耕互联网金融行业，在C端和B端产品上均有丰富的产品经验。</p>
+<p><strong>蔡鑫 日本社区经理</strong><br>日本大阪大学无线通信专业硕士，曾在某国内知名通信公司海外市场担任技术工程师并负责项目管理。精通日语，英语，可听说韩语，擅长不同文化间的沟通和跨国技术项目拓展。</p>
+<p><strong>蓝昊翔 PM&amp;区块链开发⼯程师</strong><br>全栈开发工程师, 精通区块链技术，Graphene社区活跃成员和代码贡献者，5年金融领域从业经验，13年接触区块链，并持续从事区块链技术的研究和应用，曾就职于美国道富、51信用卡、大树金融，在密码学、数据库、服务端和移动端等多个领域都有丰富的实践经验。</p>
+<h3 id="团队架构"><a href="#团队架构" class="headerlink" title="团队架构"></a>团队架构</h3><p>公信宝团队架构较为完整和科学，团队成员具有相关从业经验。</p>
+<h2 id="社区治理"><a href="#社区治理" class="headerlink" title="社区治理"></a>社区治理</h2><p>得分:<strong>8分</strong><br>比重:<strong>10%</strong></p>
+<h3 id="社区规模"><a href="#社区规模" class="headerlink" title="社区规模"></a>社区规模</h3><p>公信宝社区通过布洛克城构建，目前已获得百万级实名用户量，在目前的区块链项目中比较出色。</p>
+<h3 id="社区氛围"><a href="#社区氛围" class="headerlink" title="社区氛围"></a>社区氛围</h3><p>布洛克城日活数据未知，其电报群用户达到19804、推特1万粉丝，日常活跃互动良好，社区氛围中等偏上。</p>
+<p><img src="https://hbimg.b0.upaiyun.com/034316e87c44844515a58d9d7f8a08e1d73432332aa24-DMe8a1_fw658" alt="推特"></p>
+<h3 id="运营推广"><a href="#运营推广" class="headerlink" title="运营推广"></a>运营推广</h3><p>公信宝在微博、微信公众号等多渠道进行推广，海外用户推广则基于推特、电报群和facebook等，推广效果良好，但主要用户群体还是币圈用户。</p>
+<h2 id="评测意见"><a href="#评测意见" class="headerlink" title="评测意见"></a>评测意见</h2><p>公信宝被称为”国产三宝“之一，是一个既有技术实力、也会推广运营的做实事项目。项目立足数据流通和安全问题，采用区块链技术解决信任问题，发展前景良好，但是需要注意通证流通风险。</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/项目评测/" rel="tag"># 项目评测</a>
+          
+            <a href="/tags/公信宝/" rel="tag"># 公信宝</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2018/10/04/空投来了！社会实验——傻币/" rel="next" title="空投来了!社会实验——傻币">
+                <i class="fa fa-chevron-left"></i> 空投来了!社会实验——傻币
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">守敬</p>
+              <p class="site-description motion-element" itemprop="description">比特币区块链项目分析</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-categories">
+                
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">分类</span>
+                
+              </div>
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">标签</span>
+                
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#项目立项"><span class="nav-number">1.</span> <span class="nav-text">项目立项</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#项目背景"><span class="nav-number">1.1.</span> <span class="nav-text">项目背景</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#立足痛点"><span class="nav-number">1.2.</span> <span class="nav-text">立足痛点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#发展前景"><span class="nav-number">1.3.</span> <span class="nav-text">发展前景</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#实现难度"><span class="nav-number">1.4.</span> <span class="nav-text">实现难度</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#通证模型"><span class="nav-number">2.</span> <span class="nav-text">通证模型</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#通证总量"><span class="nav-number">2.1.</span> <span class="nav-text">通证总量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#分配比例"><span class="nav-number">2.2.</span> <span class="nav-text">分配比例</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#流通逻辑"><span class="nav-number">2.3.</span> <span class="nav-text">流通逻辑</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#履约能力"><span class="nav-number">3.</span> <span class="nav-text">履约能力</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#路线图进度"><span class="nav-number">3.1.</span> <span class="nav-text">路线图进度</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#代码库更新"><span class="nav-number">3.2.</span> <span class="nav-text">代码库更新</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#募资使用"><span class="nav-number">3.3.</span> <span class="nav-text">募资使用</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#核心团队"><span class="nav-number">4.</span> <span class="nav-text">核心团队</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#团队成员"><span class="nav-number">4.1.</span> <span class="nav-text">团队成员</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#团队架构"><span class="nav-number">4.2.</span> <span class="nav-text">团队架构</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#社区治理"><span class="nav-number">5.</span> <span class="nav-text">社区治理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#社区规模"><span class="nav-number">5.1.</span> <span class="nav-text">社区规模</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#社区氛围"><span class="nav-number">5.2.</span> <span class="nav-text">社区氛围</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#运营推广"><span class="nav-number">5.3.</span> <span class="nav-text">运营推广</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#评测意见"><span class="nav-number">6.</span> <span class="nav-text">评测意见</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">守敬</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Pisces</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
